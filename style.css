@@ -1,0 +1,156 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+
+body{
+   background-color: rgb(0, 0, 32);
+   color: white;
+   font-family: 'poppins',sans-serif;
+}
+nav{
+   display: flex;
+   justify-content:space-around;
+   align-items: center;
+   height: 100px;
+   background-color: rgb(27, 27, 125);
+}
+nav ul{
+   display: flex;
+   justify-content: center;
+}
+nav ul li{
+   list-style: none;
+   margin: 0 23px;
+}
+nav ul li a{
+   text-decoration: none;
+   color: white;
+}
+nav ul li a:hover{
+   color: rgb(119, 119, 209);
+   font-size:1.04 rem;
+}
+main hr{
+   border: 0px;
+   background-color: #9c97f1;
+   height: 1px;
+   margin:60px 84px;
+}
+.left{
+   font-size: 1.5rem;
+}
+.firstSection{
+   display: flex;
+   justify-content: space-around;
+   margin:120px 0;
+   align-items: center;
+}
+.firstSection > div{
+   width: 30%;
+}
+.social-text{
+   margin-left:50px;
+   display:flex;
+   justify-content: space-evenly;
+   margin-bottom: 1%;
+}
+.social-img{
+   display: flex;
+   justify-content: space-evenly;
+}
+.piclink{
+   width: 70px;
+   height: 60px;
+   margin-left:60px ;
+}
+.picgit{
+   width: 60px;
+   height: 60px;
+   background-color: white;
+   margin-left:10px ;
+   
+}
+.leftSection{
+   
+   font-size: 3rem;
+}
+.rightSection img{
+   width: 80%;
+   margin: 50px 0;
+}
+.purple{
+   color:rgb(150, 75, 221);
+}
+.text-grey{
+   color: grey;
+}
+#element{
+   color:rgb(150, 75, 221);
+}
+.secondSection{
+   max-width: 80vw;
+   margin: auto;
+   height: 80px;
+   
+}
+.secondSection h1{
+   font-size : 1.9rem;
+}
+.secondSection .box{
+   background: white;
+   width: 77vw;
+   height: 2px;
+   margin: 56px 0;
+   display: flex;
+}
+.secondSection .vertical{
+   height: 93px;
+   width: 1px;
+   background-color: white;
+   margin:0 140px;
+}
+.image-top{
+   width:30px;
+   position: relative;
+   top:-32px;
+   left:-9px;
+}
+.vertical-title{
+   position: relative;
+   top:75px;
+   width: 150px;
+   font-size: 18px;
+}
+.vertical-desc{
+   position: relative;
+   top:86px;
+   color: grey;
+   width:150px;
+   font-size: 10px;
+   
+}
+footer{
+   background-color: #0e0e1a;
+   /* height: 233px; */
+   margin: 450px 0px 0 0;
+}
+.footer{
+   display: flex;
+   padding:23px 122px;
+   justify-content: space-evenly;
+}
+.footer-first{
+   color: white;
+}
+.footer ul{
+   list-style: none;
+}
+.footer > div{
+   width: 123px;
+}
+footer .footer-rights{
+   text-align: center;
+   color:grey;
+   padding: 12px 0;
+}
